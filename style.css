@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Renogare';
+    src: url('font/Renogare-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (min-width : 292px ) and (max-width : 479px ) {
+
+    header {
+
+        display: flex;
+        text-align: center;
+
+
+    }
+    #footer{
+
+        display: flex;
+        align-items: flex-end;
+        align-items: stretch;
+
+    }
+
+    body {
+
+        color: white;
+        font-family: 'Renogare';
+        background-color: #1B0E2F;
+
+    }
+
+
+    #main {
+
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        display: flex; 
+        flex-direction: column;
+
+    }
+
+    #article, #aside {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #aside{
+
+        background-color: #181168;
+        color: rgb(255, 255, 255);
+        
+    }
+    aside,article,section,form,#formdiv{
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    img{
+        /**/
+    }
+
+}
+
+@media (min-width : 480px ) and (max-width : 720px ) {
+
+    header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    #footer{
+
+        display: flex;
+        align-items: flex-end;
+        align-items: stretch;
+
+    }
+
+    body {
+
+        color: white;
+        font-family: 'Renogare';
+        background-color: #1B0E2F;
+
+    }
+
+
+    #main {
+
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        display: flex; 
+        flex-direction: column;
+
+    }
+
+    #article, #aside {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #aside{
+
+        background-color: #181168;
+        color: rgb(255, 255, 255);
+        
+    }
+    aside,article,section,form,#formdiv{
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        /**/
+    }
+
+}
+
+@media (min-width : 721px ) and (max-width : 1920px ) {
+
+    header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #footer{
+
+        display: flex;
+        align-items: flex-end;
+        align-items: stretch;
+
+    }
+
+    body {
+
+        color: white;
+        font-family: 'Renogare';
+        background-color: #1B0E2F;
+
+    }
+
+    #body{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #main {
+
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        display: flex; 
+        flex-direction: rowreverse;
+        /*justify-content: center;*/
+        /*justify-content: space-between;*/
+        /*align-items: stretch;*/
+
+    }
+
+    #article, #aside {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    #aside{
+
+        background-color: #181168;
+        color: rgb(255, 255, 255);
+        
+    }
+    aside,article,section,form,#formdiv{
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    img{
+        max-width: 350px;
+    }
+
+}
+
