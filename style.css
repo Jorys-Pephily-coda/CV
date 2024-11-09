@@ -135,7 +135,7 @@
 
 }
 
-@media (min-width : 721px ) and (max-width : 1920px ) {
+@media (min-width : 721px ) and (max-width : 2442px ) {
 
     header {
 
@@ -199,6 +199,36 @@
         flex-direction: column;
         align-items: center;
 
+    }
+
+    #paragraph{
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #experience,#etude{
+
+        flex: 1;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+
+    }
+
+    #xpslot{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    #locationNdate{
+
+        display: flex;
+        justify-content: flex-start;
+        
     }
 
     img{
